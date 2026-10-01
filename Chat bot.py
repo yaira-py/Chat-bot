@@ -32,7 +32,7 @@ class ChatBot:
             messagebox.showinfo('Invalid','Pls enter something first')
             return
 
-        models_to_try=['gemini-3.5-flash','gemini-3.6-flash','gemini-3.7-flash','gemini-3.8-flash']
+        models_to_try=['gemini-3.5-flash','gemini-3.5','gemini-3.6-flash','gemini-3.7-flash','gemini-3.7'.'gemini-3.8-flash','gemini-3.8']
 
         reply=None
         for model_name in models_to_try:
